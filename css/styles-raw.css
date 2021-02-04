@@ -430,6 +430,7 @@ footer{
     overflow: hidden;
     transition: .4s;
     position: absolute;
+    font-size: 20px;
   }
 
   .main-nav.open{
