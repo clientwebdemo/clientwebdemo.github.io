@@ -1,7 +1,8 @@
 $(document).ready(function(){
 	$('.header .hamburger-icon').on('click', function(){
 		$(this).toggleClass('open');
-		$('.main-nav').toggleClass('open');
+        $('body').toggleClass('no-overflow');
+        $('.main-nav').toggleClass('open');
 	});
 
 	$('[data-slick]').slick({

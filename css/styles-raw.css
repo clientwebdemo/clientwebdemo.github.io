@@ -407,6 +407,16 @@ footer{
 
 /* Mobile view */
 @media only screen and (max-width: 1023px){
+  body.no-overflow{
+    overflow: hidden;
+  }
+
+  .header{
+    position: relative;
+    z-index: 10;
+    height: 72px;
+  }
+
   .desktop-only{
     display: none;
   }
@@ -423,19 +433,21 @@ footer{
   }
 
   .main-nav.open{
-    max-height: 300px;
+    margin-top: -72px;
+    max-height: 100vh;
+    height: 100vh;
+    background-color: #333;
+    color: #fff;
   }
 
   .main-menu{
     display: flex;
     flex-wrap: wrap;
+    margin-top: 80px;
   }
 
   .menu-item{
-    border-bottom: solid 1px #ddd;
-    border-right: solid 1px #ddd;
-    background-color: #fff;
-    width: 50%;
+    width: 100%;
   }
 
   .menu-item.open .sub-menu{
@@ -443,7 +455,7 @@ footer{
   }
 
   .menu-link{
-    padding: 20px 30px;
+    padding: 30px;
   }
 
   .whatsapp-icon{
