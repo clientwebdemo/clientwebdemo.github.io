@@ -430,7 +430,7 @@ footer{
     overflow: hidden;
     transition: .4s;
     position: absolute;
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .main-nav.open{
@@ -456,13 +456,13 @@ footer{
   }
 
   .menu-link{
-    padding: 30px;
+    padding: 20px 30px;
   }
 
   .whatsapp-icon{
     width: 100%;
     margin-top: 0;
-    padding: 20px 30px;
+    padding: 15px 30px;
   }
 
   .whatsapp-icon img{
